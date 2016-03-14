@@ -1,0 +1,142 @@
+<style>
+header {
+	background-color: blue;
+	width: 100%;
+	text-align: center;
+	color: red;
+	border-radius: 15px 15px 0 0;
+}
+
+h1 {
+	display: inline-block;
+	margin-right: 1.5rem;
+}
+/* 2. Navigation */
+
+nav {
+	background: blue;
+	display: inline-block;
+	width: auto;
+}
+ul {
+	list-style-type: none;
+    margin: 0;
+	padding: 0;
+    background-color: skyblue;
+	display: inline-block;
+}
+ul li {
+	display: inline-block;
+	height: 100%;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+ul li:hover {
+	text-shadow: 2px 2px black;
+	animation: animacion;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+
+/* 3. Body */
+
+body {
+	background-color: burlywood;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65rem;
+	font-family: sans-serif;
+}
+
+/* 4. Content */
+
+.contenido {
+	background-color: green;
+}
+
+section {
+	display: block;
+}
+
+main {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	box-sizing: border-box;
+	overflow-y: scroll;
+	display: inline-block;
+	background-color: skyblue;
+	box-sizing: border-box;
+	vertical-align: top;
+	height:  800px;
+	width: 70%;
+}
+aside {
+	box-sizing: border-box;
+	vertical-align: top;
+	display: inline-block;
+	width: 25%;
+
+}
+aside div {
+	text-align: center;
+	margin: 10px;
+	height: 200px;
+	margin-bottom: 10px;
+	background-color: wheat;
+	display: block;
+	box-sizing: border-box;
+}
+
+.contenidolado {
+	display: block;
+	text-align: center;
+	width: 95%;
+	padding: 0;
+	overflow: hidden;
+}
+
+.contenidolado div {
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: white;
+	width: 31%;
+	margin: 10px;
+	height: 300px;
+	vertical-align: middle;
+}
+.contenidolado img {
+	width: 30%;
+	height: auto;
+}
+ul.ladodentro {
+	list-style-type: none;
+	text-align: left;
+}
+section.center {
+	display: block;
+	text-align: center;
+}
+
+/* 5. footer */
+
+footer {
+	margin: 0;
+	background-color: black;
+	color: red;
+	text-align: center;
+	border-radius: 0 0 15px 15px;
+	height: 2rem;
+}
+footer p {
+	margin: 0;
+	vertical-align: middle;
+}
+
+<style/>
